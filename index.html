@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Mood Diary</h1>
+
+    <!-- Form for user input -->
+    <!-- Form for user input -->
+    <form id="moodForm">
+<!-- Date -->
+        <label for="entryDate">Date:</label>
+        <input type="date" id="entryDate" name="entryDate">
+        <!-- text -->
+        <label for="text">Write whatever you want to Write</label>
+        <textarea id="text" placeholder="Write your thoughts..."></textarea>
+        <!-- image -->
+        <label for="image">image:</label>
+        <input type="file" id="image" accept="image/*">
+        <!-- music -->
+        <label for="music">music:</label>
+        <input type="file" id="music" accept="audio/*">
+        <button type="submit">Save Entry</button>
+    </form>
+
+
+    <!-- Display entries -->
+    <div id="entries"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

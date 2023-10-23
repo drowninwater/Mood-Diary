@@ -1,0 +1,37 @@
+/* Style for the form */
+#moodForm {
+    max-width: 400px; /* Adjust this value based on your layout */
+    margin: 0 auto;   /* Center the form on the page */
+}
+
+/* Style for form labels */
+label {
+    display: block; /* Make labels appear on a new line */
+    margin-bottom: 10px; /* Add spacing between labels */
+}
+
+/* Style for text input and textarea */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for file input */
+input[type="file"] {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Style for the submit button */
+button[type="submit"] {
+    background-color: #007bff; /* Customize the button's appearance */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
